@@ -146,6 +146,10 @@ body {
     border-radius: 15px;
     border: none;
 }
+.contact button:active {
+    background-color: white;
+    color: black;
+}
 .o{
     background-color: black;
     color: rgb(255, 255, 255);
