@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    text-align: center;
+}
+.menu a{
+    text-decoration: none;
+    display: inline-block;
+    width: 200px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 10px 40px;
+    transition: 1s;
+}
+.menu a:hover{
+    background-color:rgb(118, 118, 118);
+}
+.header{
+    background-image: url(images/polygons.png);
+    padding: 200px 0;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+.header a{
+    text-decoration: none;
+    color: black;
+    transition: 1s;
+}
+.header a:hover{
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+.about{
+    text-align: center;
+    width: 1200px;
+    margin: 0 auto;
+}
+.about img{
+    width: 400px;
+    float: right;
+}
+.about p{
+    text-align: justify;
+}
+.member{
+    display: inline-block;
+    width: 20%;
+    border: 3px solid #dedede;
+    padding: 10px;
+    margin: 5px;
+
+}
+.member img{
+    width: 100%;
+}
+.member a{
+    text-decoration: none;
+    background-color: #055b73;
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+    border-radius: 30px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.team{
+    text-align: center;
+}
+.tariff{
+    background-color: #868686;
+    text-align: center;
+
+}
+.tariff ul{
+    list-style: none;
+    background-color: ghostwhite;
+    width: 30%;
+    padding: 0;
+    margin: 10PX;
+    display: inline-block;
+}
+.tariff li{
+    border-bottom: 3px solid #ffffff;
+    padding: 16px 0;
+}
+.tariff .pay{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 28px 0;
+}
+.tariff .payy{
+    background-color: rgb(59, 105, 126);
+    color: white;
+    padding: 37px 0;
+}
+.tariff li:last-child{
+    background-color:#d8d8d8;
+}
+.tariff a{
+    background-color: black;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 12px 24px;
+    border-radius: 12px;
+}
+.tariff span{
+    font-weight: 900;
+}
+.tariff .period{
+    color: rgb(167, 167, 167);
+}
+.contact{
+    text-align: center;
+    background-color:#d8d8d8;
+    margin-bottom: 0px;
+}
+.city{
+    background-image: url(images/address.png);
+}
+.phone{
+    background-image: url(images/phone.png);
+}                    
+.email{
+    background-image: url(images/mail.png);
+}
+.info{
+    background-repeat: no-repeat;
+    text-align: left;
+    background-size: 18px 18px;
+    padding-left:3%;
+}
+.contact input{
+    width: 100%;
+    padding: 10px;
+    margin: 5px ;
+}
+.contact button{
+    color: rgb(255, 251, 251);
+    background-color: black;
+    padding: 12px 24px ;
+    border-radius: 15px;
+    border: none;
+}
+.o{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.o p {
+    margin: 0;
+}
+h1, h2 {
+    margin: 0;
+    padding: 0;
+
+}
+.about, .team, .tariff, .contact {
+    padding: 20px 0;
+}
